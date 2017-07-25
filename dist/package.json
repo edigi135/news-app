@@ -1,0 +1,10 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "News headline reader built with news-api",
+  "author": "Evan DiGiambattista",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
