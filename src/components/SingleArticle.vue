@@ -10,13 +10,13 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-marginless is-4"><a :href="article.url">{{ article.title }}</a></p>
+              <p class="title is-marginless is-4">{{ article.title }}<i style="margin-left: 7px;margin-top: 7px;font-size:.5em;" :class="contentActive ? 'fa fa-minus' : 'fa fa-plus'" aria-hidden="true"></i></p>
             </div>
           </div>
           <transition name="slide-fade">
             <div v-show="contentActive" class="content">
               <p class="subtitle is-marginless is-6"><small>by</small> {{ article.author }}</p>
-              <small><strong>{{ date }}  @  {{ time }}</strong></small>
+              <small><strong>{{ date }}  @  {{ time }}</strong></small><br/>
               {{ article.description }}
               <br/>
             </div>
