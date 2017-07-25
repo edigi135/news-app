@@ -15,6 +15,7 @@
           </div>
           <transition name="slide-fade">
             <div v-show="contentActive" class="content">
+              <br/>
               <p class="subtitle is-marginless is-6"><small>by</small> {{ article.author }}</p>
               <small><strong>{{ date }}  @  {{ time }}</strong></small><br/>
               {{ article.description }}
