@@ -19,7 +19,7 @@
               <p class="subtitle is-marginless is-6"><small>by</small> {{ article.author }}</p>
               <small><strong>{{ date }}  @  {{ time }}</strong></small><br/>
               {{ article.description }}
-              <small><a :href="article.url">Go to article<i style="margin-left: 7px;margin-top: 5px;" class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></small>
+              <small><a :href="article.url" target="_blank">Go to article<i style="margin-left: 7px;margin-top: 5px;" class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></small>
               <br/>
             </div>
           </transition>
