@@ -10,7 +10,7 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-marginless is-4">{{ article.title }}<i style="margin-left: 7px;margin-top: 7px;font-size:.5em;" :class="contentActive ? 'fa fa-minus' : 'fa fa-plus'" aria-hidden="true"></i></p>
+              <p class="title is-marginless is-4">{{ article.title }}<a><i style="margin-left: 7px;margin-top: 7px;font-size:.5em;" :class="contentActive ? 'fa fa-minus' : 'fa fa-plus'" aria-hidden="true"></i></a></p>
             </div>
           </div>
           <transition name="slide-fade">
