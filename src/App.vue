@@ -44,5 +44,7 @@ $fa-font-path: "~font-awesome/fonts";
   color: #2c3e50;
   height: 100vh;
   margin: 0 auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 </style>
