@@ -17,14 +17,12 @@ export default {
   },
   data () {
     return {
-      selected: {},
-      articles: {}
+      selected: {}
     };
   },
   methods: {
     changeSource (evt) {
       this.selected = evt;
-      this.$emit('UpdateSource', evt);
     }
   }
 };
