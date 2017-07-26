@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item" href="http://newsapi.org" target="_blank">
+      <a class="navbar-item" href="http://newsapi.org" target="_blank" rel="noopener noreferrer">
         <span class="icon is-large">
           <i class="fa fa-newspaper-o"></i>
         </span>
@@ -19,7 +19,7 @@
       <div class="navbar-start">
       </div>
       <div class="navbar-end">
-        <a class="navbar-item" href="https://github.com/edigi135" target="_blank">
+        <a class="navbar-item" href="https://github.com/edigi135" target="_blank" rel="noopener noreferrer">
           <small>Evan DiGiambattista</small>
         </a>
       </div>
