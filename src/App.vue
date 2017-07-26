@@ -6,7 +6,6 @@
 </template>
 
 <script>
-import server from './server';
 import NavBar from './components/NavBar.vue';
 import SourceSelector from './components/SourceSelector.vue';
 
